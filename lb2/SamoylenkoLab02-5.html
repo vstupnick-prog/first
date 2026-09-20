@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SamoylenkoLab02-5</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: #263238;
+            background: #f3f6f4;
+        }
+        main {
+            width: min(1040px, 92%);
+            margin: 32px auto;
+        }
+        h1 { color: #8a3b12; text-align: center; }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 24px;
+        }
+        figure {
+            margin: 0;
+            padding: 14px;
+            background: white;
+            border: 1px solid #c8cfca;
+        }
+        img {
+            display: block;
+            max-width: 100%;
+            object-fit: cover;
+        }
+        figcaption {
+            margin-top: 10px;
+            text-align: center;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Фотографії студентського життя</h1>
+        <div class="gallery">
+            <figure>
+                <img src="image/friends_study.jpg" alt="Друзі разом працюють над навчальним завданням" border="3" height="280" width="450">
+                <figcaption>Спільна робота над завданням</figcaption>
+            </figure>
+            <figure>
+                <img src="image/friends_library.jpg" alt="Студенти готуються до занять у бібліотеці" border="3" height="280" width="450">
+                <figcaption>Підготовка до занять</figcaption>
+            </figure>
+            <figure>
+                <img src="image/friends_walk.jpg" alt="Друзі відпочивають разом після навчання" border="3" height="280" width="450">
+                <figcaption>Відпочинок після пар</figcaption>
+            </figure>
+        </div>
+    </main>
+</body>
+</html>
