@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="SamoylenkoLab.css">
+    <meta name="description" content="Лабораторна робота №1: сторінка про себе та власні хобі з прикладом програми.">
+    <meta name="keywords" content="HTML, лабораторна робота, про себе, моє хобі, програмування">
+    <title>SamoylenkoLab01-9</title>
+</head>
+<body class="home-page">
+    <main>
+        <nav class="lab-navigation" aria-label="Навігація до сторінки гіперпосилань">
+            <a href="SamoylenkoLab05-3.html" target="_self">Мої гіперпосилання</a>
+        </nav>
+        <h1>Моя перша Web-сторінка</h1>
+
+        <section>
+            <h2>Про себе</h2>
+            <p>
+                Мене цікавить світ сучасних технологій, тому я поступово вчуся створювати власні Web-сторінки
+                та краще розуміти, як працює Інтернет. Для мене навчання є можливістю розвивати уважність,
+                відповідальність і творче мислення. Я намагаюся виконувати завдання <b>самостійно</b>,
+                аналізувати помилки та знаходити нові способи покращення результату.
+            </p>
+            <p>
+                У повсякденному житті я ціную <i>організованість</i>, спокійне спілкування та готовність
+                працювати над собою. Мені подобається відкривати нові теми, читати корисні матеріали,
+                експериментувати з оформленням сторінок і бачити, як звичайний текст перетворюється на
+                зручний електронний документ. Особливо важливо для мене вміти
+                <b><i><u>застосовувати знання на практиці</u></i></b>.
+            </p>
+        </section>
+
+        <section>
+            <h2>Моє хобі</h2>
+            <p>
+                Одним із моїх хобі є робота з комп'ютером і вивчення програмування. Це заняття допомагає
+                розвивати логіку, терпіння та здатність розбивати складну задачу на прості кроки. Коли програма
+                починає працювати правильно, з'являється приємне відчуття, що ідея стала реальною.
+            </p>
+            <p>
+                Також мені подобається оформлювати Web-сторінки: добирати <b><i>кольори</i></b>, шрифти,
+                структурувати інформацію та робити текст зручним для читання. Таке хобі поєднує технічні
+                навички й естетичний смак, тому воно є одночасно корисним і цікавим.
+            </p>
+
+            <h2>Програмування</h2>
+            <pre>
+package Task_Manager;
+
+import java.time.LocalDateTime;
+
+public class Note {
+    private String title;
+    private String content;
+    private LocalDateTime createAt;
+    private boolean completed;
+
+    public Note(String title, String content, LocalDateTime createAt, boolean completed) {
+        this.title = title;
+        this.content = content;
+        this.createAt = createAt;
+        this.completed = completed;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public String getContent() {
+        return content;
+    }
+
+
+
+    @Override
+    public String toString() {
+        return "title='" + title + '\'' +
+                ", content='" + content + '\'' +
+                ", createAt=" + createAt +
+                ", completed=" + completed;
+    }
+}
+
+            </pre>
+        </section>
+
+        <p class="signature"><a href="mailto:vstupnick@gmail.com">Студент групи 304-ТН Самойленко О.І.</a></p>
+    </main>
+</body>
+</html>
