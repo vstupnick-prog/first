@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Горизонтальні рядки з різними режимами руху.">
+  <meta name="author" content="Samoylenko">
+  <title>Горизонтальні рядки</title>
+    <link rel="stylesheet" href="SamoylenkoLab4-2.css">
+</head>
+<body>
+  <main>
+    <h1>Горизонтальні рядки</h1>
+    <p class="intro">П’ять смуг із власним фоном показують коливання, безперервний рух, зупинку та різну затримку.</p>
+
+    <section class="demo-row">
+      <div class="lane lane-one">
+        <marquee direction="left" behavior="alternate" scrollamount="6" loop="-1">
+          <span class="large">Текст у рядку коливається з боку в бік.</span>
+        </marquee>
+      </div>
+    </section>
+
+    <section class="demo-row">
+      <div class="lane lane-two">
+        <marquee direction="left" behavior="scroll" scrollamount="5" loop="-1">
+          <span class="serif">Рядок пробігає справа наліво та з’являється знову.</span>
+        </marquee>
+      </div>
+    </section>
+
+    <section class="demo-row">
+      <div class="lane lane-three">
+        <marquee direction="right" behavior="slide" scrollamount="5" loop="1">
+          <span class="italic">Рядок пробігає зліва направо та зупиняється.</span>
+        </marquee>
+      </div>
+    </section>
+
+    <section class="demo-row">
+      <div class="lane lane-four">
+        <marquee direction="left" behavior="scroll" scrolldelay="90" scrollamount="5" loop="-1">
+          <span class="mono">Текст переміщується із затримкою 90 мс.</span>
+        </marquee>
+      </div>
+    </section>
+
+    <section class="demo-row">
+      <div class="lane lane-five">
+        <marquee direction="left" behavior="scroll" scrolldelay="220" scrollamount="5" loop="-1">
+          <span class="rounded">Текст переміщується із затримкою 220 мс.</span>
+        </marquee>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

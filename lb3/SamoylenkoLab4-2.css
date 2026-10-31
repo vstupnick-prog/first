@@ -1,0 +1,23 @@
+:root {
+      font-family: "Segoe UI", Arial, sans-serif;
+      color: #203044;
+      background: #f3f6fa;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: #f3f6fa; }
+    main { width: min(960px, calc(100% - 32px)); margin: 0 auto; padding: 40px 0 56px; }
+    h1 { margin: 0 0 8px; font-size: clamp(1.7rem, 4vw, 2.35rem); }
+    .intro { margin: 0 0 26px; color: #53647a; line-height: 1.6; }
+    .demo-row { margin: 18px 0; }
+    .lane { height: 50px; width: 100%; overflow: hidden; border-radius: 9px; box-shadow: 0 5px 15px #19304a12; }
+    marquee { display: block; width: 100%; height: 50px; line-height: 50px; }
+    .lane-one { background: #e4d8ff; color: #482b84; }
+    .lane-two { background: #d9f0e3; color: #1b654b; }
+    .lane-three { background: #ffe1d4; color: #8a3e2d; }
+    .lane-four { background: #d9e9ff; color: #244e80; }
+    .lane-five { background: #fff0c2; color: #705116; }
+    .large { font: 700 19px Georgia, serif; letter-spacing: .02em; }
+    .serif { font: 700 18px Georgia, serif; }
+    .italic { font: italic 700 18px "Trebuchet MS", sans-serif; }
+    .mono { font: 700 17px Consolas, monospace; }
+    .rounded { font: 700 18px "Trebuchet MS", sans-serif; }
