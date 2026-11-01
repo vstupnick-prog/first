@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="440">
+  <rect width="760" height="440" fill="#e6f1eb"/>
+  <circle cx="158" cy="224" r="88" fill="#2f806d"/>
+  <rect x="280" y="136" width="184" height="176" fill="#d89d43"/>
+  <polygon points="542,137 682,116 721,249 649,323 530,284 508,203" fill="#416f9f"/>
+  <g fill="white" font-family="Arial" text-anchor="middle">
+    <text x="158" y="220" font-size="24">ДІМ</text>
+    <text x="372" y="220" font-size="24">ПОСИЛАННЯ</text>
+    <text x="615" y="220" font-size="24">ПОЛТАВА</text>
+  </g>
+</svg>

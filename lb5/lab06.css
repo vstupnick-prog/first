@@ -1,0 +1,18 @@
+body {
+    margin: 30px;
+    background-color: #f2f6f1;
+    color: #222;
+    font-family: Arial, sans-serif;
+}
+
+h1, h2 {
+    color: #205c4f;
+}
+
+a {
+    color: #205c4f;
+}
+
+img {
+    border: 1px solid #555;
+}

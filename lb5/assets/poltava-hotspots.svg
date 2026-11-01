@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="500">
+  <rect width="820" height="500" fill="#e8f4ed"/>
+  <path d="M0 400 C130 320 185 455 325 353 S565 408 820 258" fill="none" stroke="#8cbcc0" stroke-width="35"/>
+  <path d="M10 76L242 164L438 90L797 166M40 280L232 223L410 296L760 376" fill="none" stroke="white" stroke-width="10"/>
+  <polygon points="92,118 218,96 279,154 250,242 132,256 76,192" fill="#3b7c63"/>
+  <polygon points="321,126 454,105 512,172 493,274 382,294 302,226" fill="#d9a84e"/>
+  <polygon points="565,143 685,119 754,190 728,289 623,317 548,238" fill="#527fa5"/>
+  <g font-family="Arial" text-anchor="middle" font-size="20">
+    <text x="175" y="190" fill="white">БІЛА АЛЬТАНКА</text>
+    <text x="407" y="205" fill="black">КОРПУСНИЙ САД</text>
+    <text x="650" y="205" fill="white">ІВАН КОТЛЯРЕВСЬКИЙ</text>
+  </g>
+</svg>
