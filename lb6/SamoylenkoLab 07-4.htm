@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Замовлення товару</title>
+    <link rel="stylesheet" href="lb7.css">
+</head>
+<body>
+    <p>
+        <a href="SamoylenkoLab 07-2.htm">Завдання 1</a> |
+        <a href="SamoylenkoLab 07-3.htm">Анкета</a> |
+        <a href="SamoylenkoLab 07-4.htm">Замовлення товару</a>
+    </p>
+
+    <h1>Замовлення товару</h1>
+    <h2>Завдання 3. Форма для заповнення замовлення</h2>
+    <p>Заповніть дані замовлення та виберіть потрібну додаткову інформацію.</p>
+
+    <form action="#" method="post">
+        <p>Номер банківського рахунку:<br>
+            <input type="text" name="account_number" size="35" maxlength="34">
+        </p>
+
+        <p>Особистий номер користувача:<br>
+            <input type="text" name="user_number" size="35" maxlength="20">
+        </p>
+
+        <p>Оберіть товари (можна вибрати декілька):</p>
+        <select name="products" size="5" multiple>
+            <option value="keyboard">Клавіатура</option>
+            <option value="mouse">Комп’ютерна миша</option>
+            <option value="monitor">Монітор</option>
+            <option value="headphones">Навушники</option>
+            <option value="webcam">Вебкамера</option>
+        </select>
+
+        <p>Коментар до замовлення:</p>
+        <textarea name="comments" rows="5" cols="50"></textarea>
+
+        <p>Вид оплати:</p>
+        <input type="radio" name="payment" value="cash"> Готівковий розрахунок<br>
+        <input type="radio" name="payment" value="cashless"> Безготівковий розрахунок<br>
+
+        <p>Додаткова інформація у відповіді:</p>
+        <input type="checkbox" name="account_balance" value="yes"> Дані про залишки на рахунку<br>
+        <input type="checkbox" name="recent_payments" value="yes"> Список останніх виплат по рахунку<br>
+
+        <p>
+            <input type="reset" value="Очистити форму">
+            <input type="submit" value="Надіслати замовлення">
+        </p>
+    </form>
+
+    <p>Студент групи 304-ТН Самойленко О. І.</p>
+</body>
+</html>
+

@@ -1,0 +1,21 @@
+body {
+    margin: 25px;
+    font-family: Arial, sans-serif;
+    background-color: #f2f6f8;
+}
+
+h1, h2 {
+    color: #165a6a;
+}
+
+a {
+    color: #165a6a;
+}
+
+table {
+    background-color: #dffafa;
+}
+
+td {
+    padding: 5px;
+}
